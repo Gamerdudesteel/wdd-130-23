@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt&display=swap");
+
+.book, .join {
+  background-color: #d9c2a3;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+main section img {
+  box-sizing: border-box;
+}
+:root{--heading-font:"rokkit"
+  font-family: 'Lobster', cursive;
+  font-family: 'Rokkitt', serif;
+  --headline-color-on-white: black; /* headlines on a white background */
+  --headline-color-on-color: #22968c; /* headlines on a colored background */
+  --paragraph-color-on-white: black; /* paragraph text on a white background */
+  --paragraph-color-on-color: #ffb703; /* paragraph text on a colored background */
+  --paragraph-background-color: #6d435a;
+  --nav-link-color: #396e94;
+  --nav-background-color: #d4ac0d;
+  --nav-hover-link-color: #023047;
+  --nav-hover-background-color: #396e94;
+  }
+  .home-title{margin-top: 10p;}
+  .rivers-card, .camping-card, .rapids-card { margin: 200px 0;}
+  footer {margin-top: 200px;}
+  nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+  body {
+    background-color: #fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+  .msg {
+    background-color:#023047 ;
+    line-height: 1.5em;
+  }
+  .home-title{font-family: 'Rokkit', 'Bradley Hand', sans-serif;
+  font-size: 2em;}
+ wwr\images\Green-river.png{
+ max-width: 585px;
+ max-height: 391px;
+
+ }
