@@ -257,40 +257,10 @@ nav {
   grid-row: 4/9;
   box-shadow: 5px 5px 10px #6f7364;
 }
-.home-grid{
-  display:grid;
-  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-}
-@media screen and (max-width: 900px) {
-  #hero, .home-grid {
-      display: block;
-      height: auto;
-  }
-  nav, footer {
-      flex-direction: column;
-  }
-  nav a {
-      display: block;
-      padding: 15px;
-  }
-  #hero {
-      margin-top: 0;
-  }
-  #hero-msg {
-      margin-top: 0;
-  }
-  #hero-msg h4 {
-      display: none;
-  }
-  .home-title {
-      font-size: 25px;
-      color: #6f7364;
-  }
-green-river.png{
-    width:585px;
-    height:391px}
-grand-canyon-river.png{
-    width:585px;
-    height:391px
-}
+.greenriver{
+    width:600px;
+    height:400px;}
+.grandcanyon{
+    width:600px;
+    height:400px;
 }
