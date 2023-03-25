@@ -17,15 +17,68 @@
     </a>
     <nav>
       <a href="../wwr/personalsite.html">home</a>
-      <a href="../rivers.html">News</a>
-      <a href="site-plan-rafting.html">Forum</a>
-      <a href="contactus.html">Videos</a>
+      <a href="../wwr/news.html">News</a>
+      <a href="#">Forum</a>
+      <a href="../wwr/videos.html">Videos</a>
     </nav>
-    <div class="reviews">
-      <a href="./saintsrowreview.html">
-        <img src="../wwr/images/saintsrowreview.jpg" alt="fb icon" />
-      </a>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Gaming reviews</h2>
+<p>Yes I played the whole game. No I didn't play on easy</p>
+
+<div class="container">
+  <img src="../wwr/images/saintsrowreview.jpg" alt="review" class="image">
+  <a href="./saintsrowreview.html">
+  <div class="overlay">
+    <div class="text">What are you waiting for? click here!</div>
+  </div>
+</div>
+
+</body>
     </div>
-  </header>
-  <body></body>
-</html>
+    <footer>
+
+    </footer>
