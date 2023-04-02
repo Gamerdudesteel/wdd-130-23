@@ -16,6 +16,10 @@
 main section img {
   box-sizing: border-box;
 }
+.Paragraph-1 {
+  width: 80%;
+  margin: 0 auto;
+}
 :root{--heading-font:"rokkit"
   font-family: 'Lobster', cursive;
   font-family: 'Rokkitt', serif;
